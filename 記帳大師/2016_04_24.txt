@@ -1,0 +1,12 @@
+Sun Apr 24 21:12:26 2016
+
+
+Expenses of breakfast : 0 NT
+Expenses of lunch : 145 NT
+Expenses of dinner : 174 NT
+
+
+end of charge
+=========================
+Total expenses : 319 NT
+=========================

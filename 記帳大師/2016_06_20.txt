@@ -1,0 +1,13 @@
+Mon Jun 20 15:18:22 2016
+
+
+Expenses of breakfast : -1039687680 NT
+Expenses of lunch : -2009260032 NT
+Expenses of dinner : 546521642 NT
+Other expenses : condom 320000 NT
+
+
+end of charge
+=========================
+Total expenses : 1792861226 NT
+=========================
