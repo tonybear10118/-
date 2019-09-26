@@ -1,0 +1,81 @@
+.showbuy{
+	  z-index: 10000;
+      top:5%;
+      left:10%; 
+      position: fixed;
+      width:80%;
+      height:90%;
+      text-align: center;
+      opacity: 1.0;
+      border-radius:3%;
+      background-image:url("../pic_element/happydog.jpg");
+      display:none;
+      -ms-user-select:none;
+      word-break: break-all;
+      overflow:hidden;
+      text-overflow: hidden;
+      animation: buyMove 1s;
+}
+
+.showbuy img{
+	margin-top: 2%;
+	  margin-left: 6%;
+	  margin-bottom: 2%;
+      border-style: ridge;
+      border-width: 10px;
+      float:left;
+}
+
+.showbuy ul li{
+	width:50%;
+	background:rgba(145,161,171, 0.7);;
+	float:right;
+	font-family: 微軟正黑體;
+	font-weight: bold;
+	font-size: 200%;
+	color:#FFFFFF;
+	padding:15px;
+}
+
+.buybut{
+	border-style: outset;
+	width:20%;
+	padding:2%;
+	margin:2%;
+	font-family: 微軟正黑體;
+	font-weight: bold;
+	font-size: 150%;
+	color:#FFFFFF;
+	letter-spacing: 10px;
+	background-color:#739F70;　
+}
+
+@keyframes buyMove{
+
+     from {
+        top:0%; 
+        left:30%; 
+     
+     }
+    to {
+        top:5%;
+        left:10%;
+        
+    }
+}
+
+@keyframes buyMoveout{
+
+     from {
+        top:5%;
+        left:10%; 
+     
+     }
+    to {
+         top:0%; 
+        left:30%;
+        
+    }
+
+
+}

@@ -1,0 +1,158 @@
+#login{
+      z-index: 10000;
+      top:5%;
+      left:40%; 
+      position: fixed;
+      width:30%;
+      height:90%;
+      text-align: center;
+      opacity: 1.0;
+      border-radius:5%;
+      background-color:#272727;
+      animation: loginMove 1s;
+      -moz-animation: loginMove 1s;   /* Firefox */
+      -webkit-animation: loginMove 1s;
+      display:none;
+      -ms-user-select:none;
+      word-break: break-all;
+      overflow:hidden;
+      text-overflow: hidden; 
+}
+
+#every{
+	background-color:#272727;
+	height:80%;
+      -ms-user-select:none;
+}
+
+.nonevis{
+	opacity: 0.5;
+      -ms-user-select:none;
+}
+
+.logtitle{
+      font-size: 200%;
+      color:#FFFFFF;
+      font-family: "微軟正黑體";
+      padding-top:1%;
+      -ms-user-select:none;
+      margin-bottom: 5%;
+      overflow:hidden;
+      text-overflow: hidden; 
+      text-align: center;
+
+}
+
+#logicon{
+      text-align: center;
+      background-color:#FFFFFF;
+      border-radius: 70%;
+      top:0;
+      margin:0px auto;
+      width:35%;
+      height:25%;
+      -ms-user-select:none;
+      margin-bottom: 5%;
+      overflow:hidden;
+      text-overflow: hidden; 
+}
+
+.seticon{
+      padding-top: 25%;
+      text-align: center;
+      width:50%;
+      height:50%;
+      margin:0px auto;
+      -ms-user-select:none;
+      overflow:hidden;
+      text-overflow: hidden; 
+}
+
+#login form{
+      width:70%;
+      text-align: center;
+      margin:0px auto;
+      border-width:50%;
+      
+}
+.fatdog{
+       border-style:inset;
+       margin:10%;
+}
+.setbut{
+      text-align: center;
+      margin:0px auto;
+      width:40%;
+      height:5%;
+      font-family: 微軟正黑體;
+      font-weight: bold;
+      font-size:100%;
+}
+
+.changetoS{
+      margin-top: 5%;
+      font-family: 微軟正黑體;
+      font-weight: bold;
+      color:#FFFFFF;
+}
+
+.changetoS a{
+      color:#FF0000;
+}
+
+.setinput{
+      height:5%;
+      width:100%;
+      text-align: left;
+      margin:0 auto ;
+      padding:8%;
+      font-size:120%;
+      font-weight:bold;
+      font-family: 微軟正黑體;
+}
+
+
+.logingoleft{
+      float:right;
+      margin-right: 10%;
+      font-family: 微軟正黑體;
+      font-weight: bold;
+}
+
+
+@keyframes loginMove{
+
+     from {
+        top:0%; 
+        left:30%; 
+     
+     }
+    to {
+        top:5%; 
+        left:40%;
+        
+    }
+
+
+}
+@-moz-keyframes loginMove{
+    from {
+        top:0%; 
+        left:30%; 
+     }
+    to {
+        top:5%; 
+        left:40%;
+    }
+}
+@-webkit-keyframes loginMove{
+
+   from {
+        top:0%; 
+        left:30%; 
+     }
+    to {
+        top:5%; 
+        left:40%;
+    }
+}

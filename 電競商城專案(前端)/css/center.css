@@ -1,0 +1,241 @@
+
+.centerTri{
+	width:30%;
+	height:48%;
+    margin-left:40%;
+     -webkit-user-select: none;  
+}
+
+.centerIcon1{
+	margin-top:10%;
+    width:12%;
+    height:20%;
+    margin-left:49%;
+     -webkit-user-select: none;  
+}
+
+.centerIcon3{
+    width:12%;
+    height:20%;
+    margin-left:30%;
+    padding-bottom: 20%;
+    top:0%;
+     -webkit-user-select: none;  
+}
+
+.centerIcon2{
+    width:12%;
+    height:20%;
+    margin-left:30%;
+    padding-bottom: 20%;
+     -webkit-user-select: none;  
+}
+
+.centerFont{
+	text-align: center;
+	margin-left: 10%;
+	font-family: 微軟正黑體;
+	font-weight: bold;
+	font-size:300%;
+	 -webkit-user-select: none;  
+}
+
+.right{
+	margin-left:0%;
+    width:10%;
+    height:10%;
+    position:absolute;
+     -webkit-user-select: none;  
+}
+
+.right:hover{
+	cursor: pointer;
+	 -webkit-user-select: none;  
+}
+
+.left{
+	width:10%;
+	height:10%;
+    margin-left:20%;
+    position:absolute;
+     -webkit-user-select: none;  
+}
+
+.left:hover{
+	cursor: pointer;
+	 -webkit-user-select: none;  
+}
+
+@keyframes Toright1{
+
+     from {transform: rotate(240deg);}
+    to {transform: rotate(360deg);}
+
+
+}
+
+@keyframes Toright2{
+
+     from {transform: rotate(0deg);}
+    to {transform: rotate(120deg);}
+
+
+}
+
+
+@keyframes Toright3{
+
+     from {transform: rotate(120deg);}
+    to {transform: rotate(240deg);}
+
+
+}
+
+/************************************************/
+
+
+@keyframes Toleft1{
+
+     from {transform: rotate(-240deg);}
+    to {transform: rotate(-360deg);}
+
+
+}
+
+
+
+@keyframes Toleft2{
+
+     from {transform: rotate(0deg);}
+    to {transform: rotate(-120deg);}
+
+
+}
+
+
+@keyframes Toleft3{
+
+     from {transform: rotate(-120deg);}
+    to {transform: rotate(-240deg);}
+
+
+}
+
+/*-------------------------------------------*/
+
+@keyframes Icon1Move{
+from {left: 0px;}
+    to {left: 200px;}
+}
+
+@-webkit-keyframes Icon1Move{
+from {left: 0px;}
+    to {left: 200px;}
+}
+
+@-moz-keyframes Icon1Move{
+from {left: 0px;}
+    to {left: 200px;}
+}
+
+/*----------------center_judge.html----------------------*/
+
+#setjudge{
+	margin-left:15%;
+}
+
+.formtitle{
+	text-align:center;
+    border-style: inset;
+    border-color: #000000;
+    font-family: 微軟正黑體;
+    font-weight: bold;
+    font-size:130%;
+    padding:5%;
+    width:20%;
+    /*border-top-left-radius:20%;*/
+}
+
+#setjudge td tr{
+	 border-spacing: 10px 50px; 
+	 width:50%;
+	 border-style: inset;
+}
+
+#judgetitle{
+    font-family: 微軟正黑體;
+    font-weight: bold;
+    margin-left:20%;
+    margin-top:10%;	
+    margin-bottom:5%;
+    font-size:250%;
+}
+
+.setnormalpic{
+	margin:0, auto;
+	height:50%;
+    padding-left: 20%;
+   }
+
+
+.setnormal{
+	border-style: inset;
+	margin:0, auto;
+	height:50%;
+	word-break: break-all;
+	font-family: 微軟正黑體;
+    font-weight: bold;
+    font-size:150%;  
+}
+
+
+.setstar{
+	text-align: center;
+	-webkit-user-select: none;
+}
+
+.setstar img{
+		cursor: pointer;
+}
+
+
+/*----------------center_judge.htmlEEEEEEEEEND----------------------*/
+
+/*----------------center_fix.htmlstart----------------------*/
+.yourinfo{
+	margin-left: 30%;
+	margin-top:10%;
+}
+
+.yourinfo  tr{
+    padding:10%;
+    width:70%;
+    font-family: 微軟正黑體;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+.yourinfo  td{
+    padding:10px;   
+}
+
+.fixh1{
+	margin-left:-70%;
+	margin-bottom: 5%;
+}
+
+.yourinfo table{
+	border-style: inset;
+    border:5; 
+}
+
+
+.yourinfo  tr td{
+	border-style: inset; 
+    border:5;
+}
+
+
+
+
+/*----------------center_fix.htmlEEEEEEEEEEND----------------------*/

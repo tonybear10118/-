@@ -1,0 +1,13 @@
+.msgtitle{
+	margin-top: 10%;
+	margin-bottom: 5%;
+}
+
+.msgtable{
+   margin-left: 30%;
+   border-style: inset;
+}
+
+.msgtable tr td{
+	border-style: inset;
+}

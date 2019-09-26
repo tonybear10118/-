@@ -1,0 +1,47 @@
+#us{
+	margin-left:30%;
+	width:25%;
+	margin-top: 10%;
+	font-size: 500%;
+	text-align: center;
+}
+
+#us th{
+    font-family:微軟正黑體;
+}
+
+#us img{
+       height:50%;
+       text-align: center; 
+       border-radius:10%;      
+}
+
+.tomid{
+   padding-left:25%;
+   padding-right:25%;
+}
+
+.usnormal{
+    margin:0, auto;
+}
+
+
+#hideinfo{
+	font-size: 50%;
+	font-family: 微軟正黑體;
+	font-weight: bold;
+	text-align: center;
+    margin:0, auto;
+}
+
+#about1{
+    background-image: url("../pic_element/about/bear_s.PNG");
+}
+
+#about2{
+    background-image: url("../pic_element/about/chung_s.jpg");
+}
+
+#about3{
+    background-image: url("../pic_element/about/tsai_s.jpg");
+}

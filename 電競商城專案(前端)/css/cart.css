@@ -1,0 +1,43 @@
+.carticon{
+	margin-left:15%;
+	margin-top:10%;
+	width:12%;
+	height:17%;
+}
+
+.carttitle{
+   font-family: 微軟正黑體;
+   font-weight: bold;
+   font-size:250%;
+   margin-bottom: 5%;
+}
+
+.carttable{
+	height: 40%;
+	width:80%;
+	margin-left: 15%;
+    border-style: inset;
+    min-height: 20%;
+}
+
+.carttable tr td{
+	font-family: 微軟正黑體;
+	border-style: inset;
+	min-height: 20%;
+	font-size: 120%;
+}
+
+.carttable th{
+	font-family: 微軟正黑體;
+	font-size: 120%;
+}
+
+.carttableimg{
+	margin:0,auto;
+	width:50%;
+	min-width: 50%;
+	height:35%;
+	min-height: 35%;
+    text-align: center;
+    padding-left: 25%;
+}

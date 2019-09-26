@@ -1,0 +1,17 @@
+#abgne_float_ad {
+	display: none;
+	position: absolute;
+	z-index:9999;
+	margin-top:5%;
+}
+#abgne_float_ad .abgne_close_ad {
+	display: block;
+	text-align: right;
+	cursor: pointer;
+	font-size: 12px;
+	z-index:9999;
+}
+#abgne_float_ad a img {
+	border: none;
+	z-index:9999;
+}

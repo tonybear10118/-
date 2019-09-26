@@ -1,0 +1,131 @@
+.main-menu { 
+	text-align:center;
+	color:#000000; 
+	/*-webkit-animation:foroption 1s infinite alternate; */
+	padding:1%;   /*padding:5px; */
+	margin:0%; 
+	cursor:pointer; 
+	display:inline-block; 
+    font-weight: bold;
+	font-family:微軟正黑體;
+	font-size:30px;
+	-moz-user-select: -moz-none;
+    -khtml-user-select: none;
+     -webkit-user-select: none;
+     -o-user-select: none;
+     user-select: none;
+	} /* 主選單的樣式 */
+.main-menu:hover { 
+	text-align:center; 
+	-moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    background-color: 	#6C6C6C;
+}
+
+/*
+.sub-menu { 
+	text-align:center;
+	color:#000000; 
+	background-color:#CCCCCC; 
+	margin:1% -1%;   
+	padding:0%; 
+	list-style-type:none; 
+	position:absolute; 
+
+	}  下拉清單的樣式 
+.sub-menu li { 
+
+	text-align:center;
+	padding: 1% 2%;   /*padding: 3px 5px;*/
+	
+	} /* 下拉清單每一列的樣式 */
+	/*
+.sub-menu li:hover { 
+	text-align:center;
+	color:#000000; 
+	background-color:#0000FF; 
+}
+.sub-menu a { 
+	text-align:center;
+	
+	display:block; 
+
+	text-decoration:none; 
+	color:#000000;  
+}
+.sub-menu a:hover { 
+	color:#000000; 
+	background-color:#0000FF; 
+	text-decoration:none;
+	text-align:center;  
+}          */
+/*////////////////////////*/
+.newsub{
+	color:#000000; 
+	text-align:left; 
+	font-size:20px;
+	font-weight: bold;
+	transition: 1s;
+    -webkit-transition: 1s;
+    padding-left: 10%;  
+}
+
+.newsub::before{
+	text-align: right;
+}
+
+.newsub li { 
+	font-size:20px;
+	font-weight: bold;
+	 color:#000000; 
+	text-align:left;   /*padding: 3px 5px;*/
+	 padding-left: 10%;
+	 line-height:30px; 
+	} 
+
+.newsub a {
+	font-size:20px;
+	font-weight: bold;
+color:#000000;  
+	text-align:left;
+	text-decoration:none; 
+	color:#000000; 
+	padding-left: 10%; 
+}
+
+.newsub li:hover{
+	background-color: 	#6C6C6C;
+}
+
+
+#option{
+	position:relative;
+	text-align:center;
+    
+}
+
+.slidein{
+	 animation:jumpin 5s infinite; /*IE*/
+    -moz-animation:jumpin 5s infinite; /*FireFox*/
+    -webkit-animation:jumpin 5s infinite; /*Chrome, Safari*/
+}
+
+/*option jump in*/
+
+@keyframes jumpin{
+    from {left:0%;}
+    to {left:50%;}
+}
+@-moz-keyframes  jumpin{
+    from {left:0%;}
+    to {left:50%;}
+}
+@-webkit-keyframes  jumpin{
+    from {left:0%;}
+    to {left:50%;}
+}
+
+/*option jump end*/

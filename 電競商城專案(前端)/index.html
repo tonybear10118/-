@@ -1,0 +1,740 @@
+<html>
+
+<head>
+<title>首頁</title>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+<script type="text/javascript" src="http://malsup.github.com/jquery.cycle.all.js"></script>
+<script src="js/option.js"></script>
+<script src="js/cover.js"></script>
+<script src="js/login.js"></script>
+<script src="js/adver.js"></script>
+<script src="js/whichadver.js"></script>
+<script src="js/sign.js"></script>
+<script src="js/star.js"></script>
+<script src="js/index.js"></script>
+<script src="js/buy.js"></script>
+
+
+<style type="text/css">
+@import url(index.css);
+@import url(css/cover.css);
+@import url(css/option.css);
+@import url(css/adver.css);
+@import url(css/login.css);
+@import url(css/sign.css);
+@import url(css/buy.css);
+@import url(https://fonts.googleapis.com/css?family=Kumar+One);
+@import url(https://fonts.googleapis.com/css?family=Montserrat+Subrayada);
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+</style>
+</head>
+
+<body>
+
+<div class="container">
+  <div id="leftbar">
+     <div class="Tcontainer"><br>
+      <!--fake element-->
+
+          <div id="logo">
+           <script>    
+          document.write("<img  id='logbut' onclick='hideall()'  src='login2.png' height='100' width='100'>");
+          </script>    
+                   <span aria-hidden="true"></span>
+ 
+
+          <div id="space">
+          <br><br><br>
+          </div>
+
+
+          <div>  
+              <h1><a class="setleftfont" href="index.html">X_NET</a>
+              </h1>
+          </div>
+
+          
+       
+        
+           </div>
+
+                      <div id="space2">
+                      <br><br><br><br>
+                      </div>
+
+           <div id="option">
+               <span class="main-menu" onclick="switchMenu( this, 'keyboard','')
+                                                
+               ">機械式鍵盤 
+               <span style="font-size:9px;">&#9660;</span></span>
+                <ul id="keyboard" class="newsub" style="display:none;">
+                    <li id="blue"><a href="blue.html">青 軸</a></li>
+                    <li id="red"><a href="red.html">紅 軸</a></li>
+                    <li><a href="black.html" target="_blank">黑 軸</a></li>
+                    <li><a href="brown.html" target="_blank">茶 軸</a></li>
+                </ul>
+               <!-- </span> --> 
+
+                <div id="space3">
+                <br><br><br>
+                </div>
+
+
+
+
+               <span class="main-menu" onclick="switchMenu( this, 'mouse','' )
+                                                  
+               ">機械式滑鼠
+               <span style="font-size:9px;">&#9660;</span></span>
+                <ul id="mouse" class="newsub" style="display:none;">
+                    <li class=" subjumpin"><a href="logitech.html">羅 技</a></li>
+                    <li><a href="tt.html">曜 越</a></li>
+                    <li><a href="asus.html">華 碩</a></li>
+                    
+                </ul>
+                <!-- </span> --> 
+                 
+                <div id="space3">
+                <br><br><br>
+                </div>
+
+
+                <span class="main-menu" onclick="switchMenu( this, 'ear','' )
+                                                 
+                ">耳機麥克風
+               <span style="font-size:9px;">&#9660;</span></span>
+                <ul id="ear" class="newsub" style="display:none;">
+                    <li><a href="ear1.html" >耳 罩 式</a></li>
+                    <li><a href="ear2.html">耳 塞 式</a></li>
+                </ul>
+               <!-- </span> --> 
+                
+         
+
+                <div style="padding-top:90%">
+                <a href="logout.html" class="leftfoot">登出</a> <br><br>
+                <a href="index.html#contactus" class="leftfoot">Contact Us </a><br><br>
+                <a href="aboutus.html" class="leftfoot">About Us </a> <br><br>
+                <a href="backdour.html" class="leftfoot">前往後台 </a> <br>
+                </div>
+           </div>  
+     </div>  <!--container-->
+
+     
+  </div> <!--左測bar-->
+</div> <!--container-->
+<div class="container">
+     <div id="title">
+        <ul>
+           <li class="setheadcol"><a href="index.html">首頁</a></li>
+           <li class="setheadcol"><a href="center.html">會員中心</a></li>
+           <li class="setheadcol"><a href="cart.html">購物車</a></li>
+           <li class="setheadcol"><a href="message.html">留言板</a></li>
+        </ul>
+        <input class="setsearch" type="text">
+     </div>
+     <!--<div id="sethead">WelCome to  X_NET !
+     </div> -->
+</div>
+<!--
+<div class="container">
+     <img id="cart" src="pic_element/buy.png">
+     <img id="search" src="pic_element/search.png">
+</div> -->
+
+<div class="container">
+     <div id="slider">   <!--封面-->     
+          <div class="cover1"></div>
+          <div class="cover2"></div>
+          <div class="cover3"></div>     
+      </div>
+</div>
+
+<!--熱門商品-->
+<div class="container">
+    <div class="hotproduct">
+      <img src="pic_element/hotproduct.png">
+    </div>
+</div>
+      
+      <!--解除糞感-->
+<div class="container">
+    <div >    <!--商品區-->
+        <div class="setting">
+              <input type="button" value="Buy Now" class="buynow" onclick="showdes('E5')">
+              <img class="product" src="pic_element/ear/ear1/5.jpg"><br>
+              <p class="word">
+              MadCatz F.R.E.Q.9 無線耳機麥克風|黑<br>
+                $9999
+              </p>
+              
+           </div>
+           
+
+           <div class="setcol">
+              <input type="button" value="Buy Now" class="buynow"  onclick="showdes('B37')">
+              <img class="product" src="pic_element/keyboard/brown/37.jpg"><br>
+              <p class="word">
+                i-Rocks IRK76M RGB機械鍵盤-白<br>
+                $3990
+              </p>
+              
+           </div>
+
+
+            <div class="setcol">
+              <input type="button" value="Buy Now" class="buynow" onclick="showdes('B8')">
+              <img class="product" src="pic_element/keyboard/blue/8.jpg"><br>
+              <p class="word">
+                【AULA狼蛛】逐日者 F-2009S<br>
+                $2990
+              </p>
+              
+           </div>
+
+
+        </div>       <!--第一排end-->
+
+        <div >        <!--第二排-->      
+           <div class="setting">
+              <input type="button" value="Buy Now" class="buynow" onclick="showdes('B7')">
+              <img class="product" src="pic_element/keyboard/blue/7.jpg"><br>
+              <p class="word">
+                【FOXXRAY】狩魂戰狐機械電競鍵盤<br>
+                $2190
+              </p>
+              
+           </div>
+
+           <div class="setcol">
+              <input type="button" value="Buy Now" class="buynow" onclick="showdes('E18')">
+              <img class="product" src="pic_element/ear/ear2/18.jpg"><br>
+              <p class="word">
+               Tt eSPORTS ISURUS 隱者PRO專業版<br>
+                $1290
+              </p>
+              
+           </div>
+
+           <div class="setcol">
+              <input type="button" value="Buy Now" class="buynow" onclick="showdes('E3')">
+              <img  class="product" src="pic_element/ear/ear1/3.jpg"><br>
+              <p class="word">
+                B.FRIEND CH3 RGB耳機麥克風|白<br>
+                $1680
+              </p>
+             
+           </div>
+
+        </div>   <!--第二排END-->
+
+        <div >        <!--第三排-->      
+            <div class="setting">
+              <input type="button" value="Buy Now" class="buynow" onclick="showdes('M13')">
+              <img  class="product" src="pic_element/mouse/Asus/13.jpg"><br>
+              <p class="word">
+                華碩ROG Spatha 電競滑鼠<br>
+                $5590
+              </p>
+              
+           </div>
+
+           <div class="setcol">
+              <input type="button" value="Buy Now" class="buynow"  onclick="showdes('M9')">
+              <img  class="product" src="pic_element/mouse/Tte-sport/9.jpg"><br>
+              <p class="word">
+                Tt eSPORTS 曜越LEVEL 10 M進階版雷射引擎電競滑鼠<br>
+                $2490
+              </p>
+             
+           </div>
+
+           <div class="setcol">
+              <input type="button" value="Buy Now" class="buynow" onclick="showdes('B9')">
+              <img class="product" src="pic_element/keyboard/blue/9.jpg"><br>
+              <p class="word">
+                【i-Rocks】K60M機械式鍵盤<br>
+                $2590
+              </p>
+              
+           </div>
+
+        </div>   <!--第三排END-->
+    </div>
+</div>
+<!--結束!-->
+
+<!--產品描述-->
+<!--No1-->
+<div id="E5" class="showbuy">
+    <img src="pic_element/ear/ear1/5.jpg" style="width:35%; height: 40%;">
+    <ul>
+      <li>
+         商品名稱：
+      </li>
+      <li>
+         MadCatz F.R.E.Q.9 無線耳機麥克風|黑
+      </li>
+      <li>
+         商品價錢：
+      </li>
+      <li>
+         $9999
+      </li>
+      <li>
+         庫存數量：
+      </li>
+      <li>
+         457
+      </li>
+      <li>
+         商品描述
+      </li>
+      <li>
+         來自波賽頓鎮店之寶，經典款茶軸。想入門嗎？選他就對了！貨真價實的手感以及回饋力道保證讓你回味無窮！
+      </li>
+    </ul>
+    <div>
+    <input class="buybut" type="submit" value="加入購物車">
+    </div>
+
+    <div>
+    <button class="buybut" onclick="hidedes('E5')">離開</button>
+    </div>
+</div>
+<!---->
+<!--No2-->
+<div id="B37" class="showbuy">
+    <img src="pic_element/keyboard/brown/37.jpg" style="width:40%;">
+    <ul>
+      <li>
+         商品名稱：
+      </li>
+      <li>
+        i-Rocks IRK76M RGB機械鍵盤-白
+      </li>
+      <li>
+         商品價錢：
+      </li>
+      <li>
+         $3990
+      </li>
+      <li>
+         庫存數量：
+      </li>
+      <li>
+         457
+      </li>
+      <li>
+         商品描述
+      </li>
+      <li>
+         來自波賽頓鎮店之寶，經典款茶軸。想入門嗎？選他就對了！貨真價實的手感以及回饋力道保證讓你回味無窮！
+      </li>
+    </ul>
+    <div>
+    <input class="buybut" type="submit" value="加入購物車">
+    </div>
+
+    <div>
+    <button class="buybut" onclick="hidedes('B37')">離開</button>
+    </div>
+</div>
+<!---->
+<!--No3-->
+<div id="B8" class="showbuy">
+    <img src="pic_element/keyboard/blue/8.jpg" style="width:40%;">
+    <ul>
+      <li>
+         商品名稱：
+      </li>
+      <li>
+         【AULA狼蛛】逐日者 F-2009S
+      </li>
+      <li>
+         商品價錢：
+      </li>
+      <li>
+         $2990
+      </li>
+      <li>
+         庫存數量：
+      </li>
+      <li>
+         457
+      </li>
+      <li>
+         商品描述
+      </li>
+      <li>
+         來自波賽頓鎮店之寶，經典款青軸。想入門嗎？選他就對了！貨真價實的手感以及回饋力道保證讓你回味無窮！
+      </li>
+    </ul>
+    <div>
+    <input class="buybut" type="submit" value="加入購物車">
+    </div>
+
+    <div>
+    <button class="buybut" onclick="hidedes('B8')">離開</button>
+    </div>
+</div>
+<!---->
+<!--No4-->
+<div id="B7" class="showbuy">
+    <img src="pic_element/keyboard/blue/7.jpg" style="width:40%;">
+    <ul>
+      <li>
+         商品名稱：
+      </li>
+      <li>
+         【FOXXRAY】狩魂戰狐機械電競鍵盤
+      </li>
+      <li>
+         商品價錢：
+      </li>
+      <li>
+         $2190
+      </li>
+      <li>
+         庫存數量：
+      </li>
+      <li>
+         457
+      </li>
+      <li>
+         商品描述
+      </li>
+      <li>
+         來自波賽頓鎮店之寶，經典款青軸。想入門嗎？選他就對了！貨真價實的手感以及回饋力道保證讓你回味無窮！
+      </li>
+    </ul>
+    <div>
+    <input class="buybut" type="submit" value="加入購物車">
+    </div>
+
+    <div>
+    <button class="buybut" onclick="hidedes('B7')">離開</button>
+    </div>
+</div>
+<!---->
+<!--No5-->
+<div id="E18" class="showbuy">
+    <img src="pic_element/ear/ear2/18.jpg" style="width:35%; height: 40%;">
+    <ul>
+      <li>
+         商品名稱：
+      </li>
+      <li>
+      Tt eSPORTS ISURUS 隱者PRO專業版
+      </li>
+      <li>
+         商品價錢：
+      </li>
+      <li>
+         $1290
+      </li>
+      <li>
+         庫存數量：
+      </li>
+      <li>
+         457
+      </li>
+      <li>
+         商品描述
+      </li>
+      <li>
+         來自波賽頓鎮店之寶，經典款茶軸。想入門嗎？選他就對了！貨真價實的手感以及回饋力道保證讓你回味無窮！
+      </li>
+    </ul>
+    <div>
+    <input class="buybut" type="submit" value="加入購物車">
+    </div>
+
+    <div>
+    <button class="buybut" onclick="hidedes('E18')">離開</button>
+    </div>
+</div>
+<!---->
+<!--No6-->
+<div id="E3" class="showbuy">
+    <img src="pic_element/ear/ear1/3.jpg" style="width:35%; height: 40%;">
+    <ul>
+      <li>
+         商品名稱：
+      </li>
+      <li>
+          B.FRIEND CH3 RGB耳機麥克風|白
+      </li>
+      <li>
+         商品價錢：
+      </li>
+      <li>
+         $1680
+      </li>
+      <li>
+         庫存數量：
+      </li>
+      <li>
+         457
+      </li>
+      <li>
+         商品描述
+      </li>
+      <li>
+         來自波賽頓鎮店之寶，經典款茶軸。想入門嗎？選他就對了！貨真價實的手感以及回饋力道保證讓你回味無窮！
+      </li>
+    </ul>
+    <div>
+    <input class="buybut" type="submit" value="加入購物車">
+    </div>
+
+    <div>
+    <button class="buybut" onclick="hidedes('E3')">離開</button>
+    </div>
+</div>
+<!---->
+<!--No7-->
+<div id="M13" class="showbuy">
+    <img src="pic_element/mouse/asus/13.jpg" style="width:35%; height: 40%;">
+    <ul>
+      <li>
+         商品名稱：
+      </li>
+      <li>
+         華碩ROG Spatha 電競滑鼠
+      </li>
+      <li>
+         商品價錢：
+      </li>
+      <li>
+         $5590
+      </li>
+      <li>
+         庫存數量：
+      </li>
+      <li>
+         457
+      </li>
+      <li>
+         商品描述
+      </li>
+      <li>
+         來自波賽頓鎮店之寶，經典款茶軸。想入門嗎？選他就對了！貨真價實的手感以及回饋力道保證讓你回味無窮！
+      </li>
+    </ul>
+    <div>
+    <input class="buybut" type="submit" value="加入購物車">
+    </div>
+
+    <div>
+    <button class="buybut" onclick="hidedes('M13')">離開</button>
+    </div>
+</div>
+<!---->
+<!--No8-->
+<div id="M9" class="showbuy">
+    <img src="pic_element/mouse/Tte-sport/9.jpg" style="width:35%; height: 40%;">
+    <ul>
+      <li>
+         商品名稱：
+      </li>
+      <li>
+          Tt eSPORTS 曜越LEVEL 10 M進階版雷射引擎電競滑鼠
+      </li>
+      <li>
+         商品價錢：
+      </li>
+      <li>
+         $2490
+      </li>
+      <li>
+         庫存數量：
+      </li>
+      <li>
+         457
+      </li>
+      <li>
+         商品描述
+      </li>
+      <li>
+         來自波賽頓鎮店之寶，經典款茶軸。想入門嗎？選他就對了！貨真價實的手感以及回饋力道保證讓你回味無窮！
+      </li>
+    </ul>
+    <div>
+    <input class="buybut" type="submit" value="加入購物車">
+    </div>
+
+    <div>
+    <button class="buybut" onclick="hidedes('M9')">離開</button>
+    </div>
+</div>
+<!---->
+<!--No9-->
+<div id="B9" class="showbuy">
+    <img src="pic_element/keyboard/blue/9.jpg" style="width:40%;">
+    <ul>
+      <li>
+         商品名稱：
+      </li>
+      <li>
+         【i-Rocks】K60M機械式鍵盤
+      </li>
+      <li>
+         商品價錢：
+      </li>
+      <li>
+         $2590
+      </li>
+      <li>
+         庫存數量：
+      </li>
+      <li>
+         457
+      </li>
+      <li>
+         商品描述
+      </li>
+      <li>
+         來自波賽頓鎮店之寶，經典款青軸。想入門嗎？選他就對了！貨真價實的手感以及回饋力道保證讓你回味無窮！
+      </li>
+    </ul>
+    <div>
+    <input class="buybut" type="submit" value="加入購物車">
+    </div>
+
+    <div>
+    <button class="buybut" onclick="hidedes('B9')">離開</button>
+    </div>
+</div>
+<!---->
+
+<!--magiclogin-->
+<div id="login">
+   <div class="logtitle">
+       Log In
+   </div>
+   <div id="logicon">
+       <img class="seticon" src="pic_element/login2.png">
+   </div>
+   <form>
+      <div class="fatdog"><input id="account" onkeyup="value=value.replace(/[^\w\.\/]/ig,'')" class="setinput" type="text"  placeholder="會員帳號" required></div>
+      <div class="fatdog"><input id="pwd" onkeyup="value=value.replace(/[^\w\.\/]/ig,'')" class="setinput" type="password"  placeholder="會員密碼" required></div>
+      <br>
+      <div>    <input class="setbut" type="button" value="登入">          </div>
+   </form>
+   <div class="changetoS">
+        還沒有會員？<a href="javascript: hideallS();">前往註冊！</a>
+   </div>
+
+   <div>
+        <button class="logingoleft" onclick="backall()">關閉</button>
+   </div>
+</div>
+<!--magicloginEnd-->
+
+<!--magicsign--> <!---->
+<div id="sign">
+   <div class="signtitle">
+       Sign up
+   </div>
+  
+   <form>
+      <div class="fatdog"><input onkeyup="value=value.replace(/[^\w\.\/]/ig,'')" id="regist" class="setinput" type="text"  placeholder="註冊帳號" required></div>
+      <div class="fatdog"><input id="Rpwd" onkeyup="value=value.replace(/[^\w\.\/]/ig,'')" class="setinput" type="password"  placeholder="註冊密碼" required></div>
+      <div class="fatdog"><input id="name" nkeyup="value="/oblog/value.replace(/[^\u4E00-\u9FA5]/g,'' class="setinput" type="text"  placeholder="姓名" required></div>
+      <!--<div class="fatdog"><input id="sex" class="setinput" type="text"  placeholder="性別" required></div> -->
+      <div class="fatdog">
+      <select>
+       <option>男</option>
+       <option>女</option>
+      </select>
+      </div>
+
+      <div class="fatdog"><input id="mail" class="setinput" type="text"  placeholder="e-mail" required></div>
+      <br>
+      <div>    <input class="setbut" onclick="javascript:check()" type="button" value="註冊">          </div>
+   </form>
+   <div class="changetoS">
+        已有會員？<a href="javascript: hideall();">前往登入！</a>
+   </div>
+
+   <div>
+        <button class="logingoleft" onclick="backallS()">關閉</button>
+   </div>
+</div>
+
+
+<!--magicsignEnd-->
+
+<div class="container">      
+     <div class="setline subscribe">  <!--deep color-->
+     <br>
+     <h2 class="setfont" style="font-size:37px;">分享我們的網頁!</h2>
+     
+     <p class="setfont">分享之後有神祕小禮物喔!</p>
+     <form>
+     <input class="subscribeMail setfont" type="text" placeholder="輸入e-mail">
+     <div><br><br>
+     <button id="Subscribe" class="setSubBut" type="submit">分享</button>
+     </form>
+     </div>
+     </div>
+</div>
+<div class="container">
+     <div class="setline sethole"> <!--clean color-->
+           
+                 <div class="setcontact_left setpadding_left hideover" id="contactus">  <!--contact information-->
+                        <h2 class="setfont">聯絡我們</h2>
+                        <p class="setfont">有問題嗎?盡管問</p>
+                        <form class="hideover">
+                           <p>
+                           <input class="setmsg" type="text" placeholder="姓名" required><br>  </p>
+
+                           <p>
+                           <input class="setmsg" type="text" placeholder="Email" required><br>  </p>
+
+                           <p>
+                           <input class="setmsg" type="text" placeholder="標題" required><br>  </p>
+
+                           <p>
+                           <textarea class="setmsg" placeholder="內容" required></textarea> 
+                           </p>
+
+                           <p>
+                           <button class="setbutton" type="submit">送出</button> </p>
+                        </form>
+                 </div>
+            
+                 
+                    <div class="setcontact_right setpadding_right setfont"> <!--shop information-->
+                    <h2>店家資訊</h2>
+                    <p><img src="pic_element/card.png" width="20" height="20" style="box-sizing: padding-box;">名稱</p>
+                    <p><img src="pic_element/phone.png" width="20" height="20" style="box-sizing: padding-box;">號碼</p>
+                    <p><img src="pic_element/home.png" width="20" height="20" style="box-sizing: padding-box;">地址</p>
+                    <p><img src="pic_element/mail.png" width="20" height="20" style="box-sizing: padding-box;">信箱</p>
+                    <p><img src="pic_element/spt.png" width="20" height="20" style="box-sizing: padding-box;">Support</p>
+                    </div>
+               
+     </div> 
+</div>
+
+<div class="container">
+     <div id="abgne_float_ad" >
+		<span class="abgne_close_ad">關閉廣告 [X]</span>
+        <script>
+          calladver();
+        </script>
+	</div>
+</div>
+
+<div class="container">
+     <footer class="setline setanima"> <!--copyright deep color-->
+     © 2017/05/29 Tony & Dandy ALL RIGHTS RESERVED
+     </footer>
+</div>
+</body>
+
+</html>

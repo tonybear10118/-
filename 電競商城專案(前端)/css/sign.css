@@ -1,0 +1,98 @@
+#sign{
+      z-index: 10000;
+      top:5%;
+      left:40%; 
+      position: fixed;
+      width:30%;
+      height:90%;
+      text-align: center;
+      opacity: 1.0;
+      border-radius:5%;
+      background-color:#272727;
+      animation: signMove 1s;
+      -moz-animation: signMove 1s;   /* Firefox */
+      -webkit-animation: signMove 1s;
+      display:none;
+      -ms-user-select:none;
+      word-break: break-all;
+      overflow:hidden;
+      text-overflow: hidden;
+      
+}
+
+
+#sign form{
+      width:70%;
+      text-align: center;
+      margin:0px auto;
+      border-width:50%;     
+}
+
+
+#sign select{
+       height:7%;
+       width:100%;
+       font-family: "微軟正黑體";
+       font-weight: bold;
+       font-size: 120%;
+       text-align: left;
+       overflow:hidden;
+       text-overflow: hidden; 
+       text-align: center;
+       color:#6C6C6C;
+       padding-left: 6%;
+}
+
+.signtitle{
+      font-size: 200%;
+      color:#FFFFFF;
+      font-family: "微軟正黑體";
+      padding-top:1%;
+      -ms-user-select:none;
+      margin-bottom: 5%;
+      overflow:hidden;
+      text-overflow: hidden; 
+      text-align: center;
+
+}
+
+.sexinput{
+      color:#000000;
+      text-align: center;
+
+}
+
+@keyframes signMove{
+
+     from {
+        
+        transform:rotateY(-90deg);
+     }
+    to {
+        
+        transform:rotateY(0deg);
+    }
+
+
+}
+@-moz-keyframes signMove{
+    from {
+        top:0%; 
+        left:30%; 
+     }
+    to {
+        top:5%; 
+        left:40%;
+    }
+}
+@-webkit-keyframes signMove{
+
+   from {
+        top:0%; 
+        left:30%; 
+     }
+    to {
+        top:5%; 
+        left:40%;
+    }
+}

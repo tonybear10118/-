@@ -1,0 +1,278 @@
+<html>
+
+<head>
+<title>我的購物車</title>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+<script type="text/javascript" src="http://malsup.github.com/jquery.cycle.all.js"></script>
+<script src="js/option.js"></script>
+<script src="js/cover.js"></script>
+<script src="js/login.js"></script>
+<script src="js/adver.js"></script>
+<script src="js/whichadver.js"></script>
+<script src="js/sign.js"></script>
+<script src="js/center.js"></script>
+<script src="js/index.js"></script>
+
+<style type="text/css">
+@import url(index.css);
+@import url(css/cover.css);
+@import url(css/option.css);
+@import url(css/adver.css);
+@import url(css/login.css);
+@import url(css/sign.css);
+@import url(css/center.css);
+@import url(css/cart.css);
+@import url(https://fonts.googleapis.com/css?family=Kumar+One);
+@import url(https://fonts.googleapis.com/css?family=Montserrat+Subrayada);
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+</style>
+</head>
+
+<body>
+
+<div class="container">
+  <div id="leftbar">
+     <div class="Tcontainer"><br>
+      <!--fake element-->
+
+          <div id="logo">
+           <script>    
+          document.write("<img  id='logbut' onclick='hideall()'  src='login2.png' height='100' width='100'>");
+          </script>    
+                   <span aria-hidden="true"></span>
+ 
+
+          <div id="space">
+          <br><br><br>
+          </div>
+
+
+          <div>  
+              <h1><a class="setleftfont" href="index.html">X_NET</a>
+              </h1>
+          </div>
+
+          
+       
+        
+           </div>
+
+                      <div id="space2">
+                      <br><br><br><br>
+                      </div>
+
+           <div id="option">
+               <span class="main-menu" onclick="switchMenu( this, 'keyboard','')
+                                                
+               ">機械式鍵盤 
+               <span style="font-size:9px;">&#9660;</span></span>
+                <ul id="keyboard" class="newsub" style="display:none;">
+                    <li id="blue"><a href="blue.html">青 軸</a></li>
+                    <li id="red"><a href="red.html">紅 軸</a></li>
+                    <li><a href="black.html" target="_blank">黑 軸</a></li>
+                    <li><a href="brown.html" target="_blank">茶 軸</a></li>
+                </ul>
+               <!-- </span> --> 
+
+                <div id="space3">
+                <br><br><br>
+                </div>
+
+
+
+
+               <span class="main-menu" onclick="switchMenu( this, 'mouse','' )
+                                                  
+               ">機械式滑鼠
+               <span style="font-size:9px;">&#9660;</span></span>
+                <ul id="mouse" class="newsub" style="display:none;">
+                    <li class=" subjumpin"><a href="logitech.html">羅 技</a></li>
+                    <li><a href="tt.html">曜 越</a></li>
+                    <li><a href="asus.html">華 碩</a></li>
+                    
+                </ul>
+                <!-- </span> --> 
+                 
+                <div id="space3">
+                <br><br><br>
+                </div>
+
+
+                <span class="main-menu" onclick="switchMenu( this, 'ear','' )
+                                                 
+                ">耳機麥克風
+               <span style="font-size:9px;">&#9660;</span></span>
+                <ul id="ear" class="newsub" style="display:none;">
+                    <li><a href="ear1.html" >耳 罩 式</a></li>
+                    <li><a href="ear2.html">耳 塞 式</a></li>
+                </ul>
+               <!-- </span> --> 
+                
+         
+
+                <div style="padding-top:90%">
+                <a href="index.html#contactus" class="leftfoot">Contact Us </a><br>
+                <a href="aboutus.html" class="leftfoot">About Us </a> 
+                </div>
+           </div>  
+     </div>  <!--container-->
+
+     
+  </div> <!--左測bar-->
+</div> <!--container-->
+<div class="container">
+     <div id="title">
+        <ul>
+           <li class="setheadcol"><a href="index.html">首頁</a></li>
+           <li class="setheadcol"><a href="center.html">會員中心</a></li>
+           <li class="setheadcol"><a href="cart.html">購物車</a></li>
+           <li class="setheadcol"><a href="message.html">留言板</a></li>
+        </ul>
+        <input class="setsearch" type="text">
+     </div>
+     <!--<div id="sethead">WelCome to  X_NET !
+     </div> -->
+</div>
+<!--
+<div class="container">
+     <img id="cart" src="pic_element/buy.png">
+     <img id="search" src="pic_element/search.png">
+</div> -->
+
+      
+<!--解除糞感-->
+
+
+<!--magiclogin-->
+<div id="login">
+   <div class="logtitle">
+       Log In
+   </div>
+   <div id="logicon">
+       <img class="seticon" src="pic_element/login2.png">
+   </div>
+   <form>
+      <div class="fatdog"><input id="account" onkeyup="value=value.replace(/[^\w\.\/]/ig,'')" class="setinput" type="text"  placeholder="會員帳號" required></div>
+      <div class="fatdog"><input id="pwd" onkeyup="value=value.replace(/[^\w\.\/]/ig,'')" class="setinput" type="password"  placeholder="會員密碼" required></div>
+      <br>
+      <div>    <input class="setbut" type="button" value="登入">          </div>
+   </form>
+   <div class="changetoS">
+        還沒有會員？<a href="javascript: hideallS();">前往註冊！</a>
+   </div>
+
+   <div>
+        <button class="logingoleft" onclick="backall()">關閉</button>
+   </div>
+</div>
+<!--magicloginEnd-->
+
+<!--magicsign--> <!---->
+<div id="sign">
+   <div class="signtitle">
+       Sign up
+   </div>
+  
+   <form>
+      <div class="fatdog"><input onkeyup="value=value.replace(/[^\w\.\/]/ig,'')" id="regist" class="setinput" type="text"  placeholder="註冊帳號" required></div>
+      <div class="fatdog"><input id="Rpwd" onkeyup="value=value.replace(/[^\w\.\/]/ig,'')" class="setinput" type="password"  placeholder="註冊密碼" required></div>
+      <div class="fatdog"><input id="name" nkeyup="value="/oblog/value.replace(/[^\u4E00-\u9FA5]/g,'' class="setinput" type="text"  placeholder="姓名" required></div>
+      <!--<div class="fatdog"><input id="sex" class="setinput" type="text"  placeholder="性別" required></div> -->
+      <div class="fatdog">
+      <select>
+       <option>男</option>
+       <option>女</option>
+      </select>
+      </div>
+
+      <div class="fatdog"><input id="mail" class="setinput" type="text"  placeholder="e-mail" required></div>
+      <br>
+      <div>    <input class="setbut" onclick="javascript:check()" type="button" value="註冊">          </div>
+   </form>
+   <div class="changetoS">
+        已有會員？<a href="javascript: hideall();">前往登入！</a>
+   </div>
+
+   <div>
+        <button class="logingoleft" onclick="backallS()">關閉</button>
+   </div>
+</div>
+
+
+<!--magicsignEnd-->
+<!--購物車-->
+<div class="container">
+  <div class="carttitle">
+
+      <img class="carticon" src="pic_element/buy.png">
+       我的購物車
+  </div>
+  <div>
+   <table class="carttable">
+      <tr> 
+        <th>
+          商品名稱
+        </th>
+        <th>
+          商品圖片
+        </th>
+        <th>
+          商品數量
+        </th>
+        <th>
+          商品價錢
+        </th>
+         <th>
+          刪除
+        </th>
+      </tr>
+
+      <tr>
+        <td>
+          Tt eSPORTS 波賽頓Z Forged
+        </td>
+
+        <td>
+          <img  class="carttableimg" src="pic_element/keyboard/19.jpg">
+        </td>
+
+        <td>
+          5
+        </td>
+
+        <td>
+          $4490
+        </td>
+        <td>
+          <input type="submit" value="刪除">
+        </td>
+      </tr>
+
+   </table>
+  </div>
+
+  <div>
+    
+  </div>
+</div>
+<!--END夠誤-->
+<div class="container">
+     <div id="abgne_float_ad" >
+		<span class="abgne_close_ad">關閉廣告 [X]</span>
+        <script>
+          calladver();
+        </script>
+	</div>
+</div>
+
+<div class="container">
+     <footer class="setline setanima"> <!--copyright deep color-->
+     © 2017/05/29 Tony & Dandy ALL RIGHTS RESERVED
+     </footer>
+</div>
+</body>
+
+</html>
