@@ -1,2 +1,1 @@
-# LINE_ShowProject
-此儲存庫為應徵LINE所用
+# 紀錄一下自己的作品
