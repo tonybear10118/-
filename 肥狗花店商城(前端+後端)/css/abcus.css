@@ -1,0 +1,57 @@
+#messa {
+	font-size:20px;
+	width:1000px;
+	margin:0px auto;
+		text-align:center;
+		
+}
+
+
+#leavem{
+	
+	height:400px;
+}
+#cuscenter{
+	font-size:30px;
+}
+.cusl{
+	
+	background:#e6e8ea;
+	width:100px;
+
+}
+table,td{
+	border:1px solid #9ac059;
+	
+		
+}
+#messa table{
+	width:1000px;
+	
+		margin-top:100px;
+		margin-bottom:100px;
+}
+#cusum{
+	
+	
+}
+#us{
+		width:1000px;
+	margin:0px auto;
+		text-align:center;
+	
+}
+#us table{
+	width:1000px;
+	
+		margin-top:100px;
+		margin-bottom:100px;
+}
+.usl{
+	
+	width:300px;
+}
+#us img{
+	width:200px;
+	height:200px;
+}

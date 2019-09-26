@@ -1,0 +1,94 @@
+#proim{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #000000;
+	
+	
+	
+}
+#proimtop .proimg img{
+	width:300px;
+	height:300px;
+
+	
+	
+}
+#proimtop .proimg{
+	width:300px;
+	height:300px;
+	display: inline-block;
+	
+}
+
+#proimtop ul li{
+
+}
+#proimtop .proimtright{
+	float:right;
+	padding-left:0px;
+	height:300px;
+	display: inline-block;
+	width:400px;
+background:#fbfefb;
+	   text-align:center;
+}
+#proimtop .proimtright li{
+	
+	margin-top:30px;
+	margin-bottom:40px;
+
+}
+#proimtop .proimtright li h2{
+	
+	color:#ff771f;
+
+}
+#proimtop .proimtright li h3{
+
+	color:#78c567;
+
+}
+#proimtop .proimtright li .txt1{
+
+	    font-size: 25px; 
+		font-family: Arial, Helvetica, sans-serif;
+	    color: white;
+        background-color: #72b173;
+		width:200px;
+		height:50px;
+		border:2px blue none;
+}
+#proimtop .proimtright li .txt1:hover {
+	background: #3f7d40;
+	cursor: pointer;
+	text-decoration: none;
+}
+#proimbtm {
+	width:800px;
+
+	
+	
+}
+#proimbtm dt{
+	
+	color:#f98b53;
+	
+	
+}
+#proimbtm dd{
+	
+	 font-size: 16px; 
+	
+	
+}
+#procri ul{
+	display:inline-block;
+
+	
+}
+#procri .prostar{
+	
+	float:right;
+	margin-right:200px;
+	
+}

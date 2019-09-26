@@ -1,0 +1,80 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" href="../../realC.css">
+		<link rel="stylesheet" href="../../memC.css">
+</head>
+<body>
+<div id="wrapper">
+		<div id="header" class="container">
+		    <div id="top">
+				<ul>
+					<li><a href="login.html">Login</a></li>
+					<li><a href="mem.html">會員中心</a></li>
+					<li><form>
+					<input type="text" id="s" name="search" placeholder="Search..">
+					</form>	</li>
+				</ul>
+			</div>
+
+			<div id="menu">
+
+				<ul>
+					<li><a href="../../realP.html"><img src="../../LOGO2.png" id="LOGO" ></a></li>
+					<li><a class="rubberBand"href="../../realP.html">Homepage</a></li>
+					<li><a href="../../about.html">about us</a></li>
+					<li class="dis"><a href="../../login.html">盆栽/植物</a>
+					    <ul>
+							<li><a href="../../flower.html">Flower</a></li>
+							<li><a href="../../plant.html">Plant</a></li>
+							<li><a href="#">Link 3</a></li>
+						</ul>
+					</li>				
+					<li><a href="../../login.html">花器/工具</a></li>
+					
+					<li><a href="../../customer.html">客服專區</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div id="account">
+				<ul>
+				<li class="road"> 首頁 > 會員中心</li>
+					<li><h2>我的基本資料<hr></h2></li>
+				</ul>
+				<ul>
+					<li><h2>以下*為必填</h2></li>
+				</ul>	
+				<ul>
+					<li><form name="mem" method="POST" action="mem.jsp"></li>
+					<li><h3>*會員帳號：</h3></li>
+					<li><input class="text" type="text" name="ID" required></li>
+				
+					<li class="chan"><h3>*會員密碼：</h3></li>
+					<li ><input class="text" type="password" name="pwd" required></li>
+				
+					<li><h3>身分證字號(選填)：</h3></h3></li>			
+					<li><input class="text" type="text" name="identify"></li>
+				</ul>
+				<ul>
+					<li><h3>*住址：</h3></li>
+					<li><input class="text" type="text" name="address" required></li>
+				
+					<li><h3>手機號碼(選填)：</h3></li>
+					<li><input class="text" type="number" name="phone_num"></li>
+				
+					<li><h3>*個人信箱：</h3></li>
+					<li><input class="text" type="text" name="mail" required></li>
+				</ul>
+				<ul>
+					<li><h3>性別：</h3></li>
+					<li><h3><input type="radio" name="sex" value="男">男
+					<input  type="radio" name="sex" value="女">女</h3></li>
+					<li ><input class="but" type="submit" name="Submit" value="送出">
+					<input class="but" type="reset" name="Reset" value="重新填寫">
+					</form></li>
+				</ul>
+		</div>
+</div>	
+</body>
+</html>

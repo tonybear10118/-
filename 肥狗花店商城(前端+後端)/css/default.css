@@ -1,0 +1,136 @@
+
+
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+	.button
+{
+	display: inline-block;
+	padding: 0em 0em;
+	background: #0C696E;
+	-moz-transition: opacity 0.25s ease-in-out;
+	-webkit-transition: opacity 0.25s ease-in-out;
+	-o-transition: opacity 0.25s ease-in-out;
+	-ms-transition: opacity 0.25s ease-in-out;
+	transition: opacity 0.25s ease-in-out;
+	letter-spacing: 0.20em;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #FFF;
+}
+
+.button:hover
+{
+}
+
+.button:active
+{
+}
+
+.button-big
+{
+	padding: 1.6em 4em;
+	font-size: 1.4em;
+	font-weight: 900;
+}
+
+
+#slider
+{
+	z-index:0;
+	margin: 4em auto 6em auto;
+	width: 1000px;
+	position: relative;
+}
+
+#slider .button
+{
+	display: inline-block;
+	background: rgba(255,255,255,0.2);
+	color: #ffffff;
+	text-decoration: none;
+	outline: 0;
+	font-size: 1.25em;
+	text-shadow: 0 1px 1px #003A6C;
+	z-index: 5;
+}
+
+#slider .button:hover
+{
+}
+
+#slider .viewer
+{
+	width: 1000px;
+	height: 375px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#slider .viewer .reel
+{
+	display: none;
+	height: 375px;
+}
+
+#slider .viewer .reel .slide
+{
+	position: relative;
+	width: 1000px;
+	height: 375px;
+}
+
+#slider .viewer .reel h2
+{
+	position: absolute;
+	top: 130px;
+	left: 0;
+	width: 1000px;
+	height: 80px;
+	line-height: 80px;
+	background: #111111;
+	text-align: center;
+	opacity: 0.85;
+	font-weight: normal;
+	color: #ffffff;
+	font-size: 2.25em;
+}
+
+#slider .viewer .reel p
+{
+	position: absolute;
+	top: 210px;
+	left: 0;
+	width: 1000px;
+	height: 40px;
+	line-height: 40px;
+	background: #0074C6;
+	text-align: center;
+	opacity: 0.85;
+	font-weight: normal;
+	color: #ffffff;
+	font-size: 1.1em;
+}
+/*箭頭顏色*/
+#slider .icon
+{
+	font-size: 4em;
+	color: #FFF;
+}
+
+#slider .previous-button
+{
+	position: absolute;
+	top: 150px;
+	left: 0;
+}
+
+#slider .next-button
+{
+	position: absolute;
+	top: 150px;
+	right: 0;
+}
+

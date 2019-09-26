@@ -1,0 +1,116 @@
+#left1{
+width:200px;
+display: inline-block;
+float:left;
+
+}
+#left1 ul{
+border-style: solid;
+border-width: 44px 57px 57px 58px;
+-moz-border-image: url(../images/bor1.jpg) 44 57 57 58;
+-webkit-border-image: url(../images/bor1.jpg) 44 57 57 58;
+-o-border-image: url(../images/bor1.jpg) 44 57 57 58;
+border-image: url(../images/bor1.jpg) 44 57 57 58 fill;
+	padding-left:0px;
+}
+#left1 ul li{
+	
+text-align:center;
+}
+#left1 ul li a{
+
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+
+	
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	color: #000000;
+	
+}
+#left1 ul li.greenw{
+	
+	background:#b9dc7f;
+
+}
+#left1 ul li.greenw a{
+	
+
+	color:#FFFFFF;
+	
+}
+.sepsrc {
+	padding-left:0px;
+	
+}
+#mids{
+  display: inline-block;
+  margin:0 auto;
+	
+}
+#mids .propage {
+	
+		
+		font-size: 20px;
+	background:#effaef;
+	
+}
+#product{
+
+width:800px;
+
+}
+#product .proleft{
+    padding-left:0px;
+
+
+}
+#product ul .nochan {
+		display: inline-block;
+		 
+		  margin:20px 24px 20px 24px ;
+			
+}
+#product ul li a {
+		font-family: Arial, Helvetica, sans-serif;
+	    text-decoration: none;
+		display: block;
+		border:1px solid #FFFFFF ;
+		text-align:center;
+			
+}
+#product a li.col{
+
+    color:#000000;
+
+}
+#product a li.coll{
+  color:#fb5113;
+}
+#product a:hover {
+	
+	border:1px solid #cdff80 ;
+	text-decoration: none;
+}
+#product a li input.txt1{
+
+	    font-size: 16px; 
+		font-family: Arial, Helvetica, sans-serif;
+	    color: white;
+        background-color: #72b173;
+		width:100px;
+		height:40px;
+		border:2px blue none;
+}
+#product a li input:hover {
+	background: #3f7d40;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+#product ul li a img{
+	
+		width: 200px;
+		height: 240px;
+}

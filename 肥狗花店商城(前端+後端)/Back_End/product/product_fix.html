@@ -1,0 +1,32 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+<form name="product_fix" method="POST" action="product_fix.jsp">
+<font size="20">修改產品資料請看這兒：</font><br><br>
+請輸入要修改產品的名稱及選擇要修改的選項：<br><br>
+產品名稱：<input type="text" name="fix_product">
+要修改：
+<select name="fix_choise_product">
+  <option value="productName">產品名稱
+  <option value="price">產品價格
+  <option value="inventory">產品庫存
+</select>
+
+<br><br>
+修改的值：<input type="text" name="fix_fixnum_product">
+<br><br>
+<input type="submit" value="按我修改產品資料"><a href="product_show.jsp" target="_new">產品列表參考</a>
+</form>
+<br><br><br>
+<form name="product_del" method="POST" action="product_del.jsp">
+<font size="20">刪除產品資料請看這兒：</font><br><br>
+請輸入要刪除產品的名稱：<br><br>
+<input type="text" name="del_product">
+<input type="submit" value="按我刪除產品資料">
+<br><br>
+<a href="product_show.jsp" target="_new">產品列表參考</a>
+</form>
+</body>
+</html>

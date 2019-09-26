@@ -1,0 +1,26 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+<form name="mem_fix" method="POST" action="fix_mem.jsp">
+<font size="20">修改會員資料請看這兒：</font><br><br>
+請輸入要修改會員的帳號及選擇要修改的選項：<br><br>
+會員帳號：<input type="text" name="fix_mem">
+要修改：
+<select name="fix_choise">
+  <option value="pwd">會員密碼
+  <option value="phonenum">手機號碼
+  <option value="sex">會員性別
+  <option value="address">會員住址
+  <option value="email">會員信箱
+  <option value="identify">身分證字號
+</select>
+
+<br><br>
+修改的值：<input type="text" name="fix_fixnum"><a href="show_mem_1.jsp" target="_new">會員資料參考</a>
+<br><br>
+<input type="submit" value="按我修改會員資料">
+</form>
+</body>
+</html>
